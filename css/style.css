@@ -1,0 +1,71 @@
+a,
+img {
+  user-select: none;
+}
+
+h1 {
+  /* màu chữ */
+  color: aqua;
+  /* kích thước */
+  font-size: 200%;
+  /* kiểu chữ */
+  font-style: italic;
+  /* cỡ chữ */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* chuyển hoa thường */
+  text-transform: capitalize;
+  /* căn chữ */
+  text-align: center;
+
+  visibility: visible;
+  /* display: none; */
+}
+
+img {
+  transition: 1.5s;
+}
+
+input:checked ~ img {
+  /* biết mất khỏi dao diện */
+  /* display: none; */
+  /* biến mất khỏi giao diện nhưng vẫn hiện vị trí */
+  /* visibility: hidden; */
+  /* làm mờ và không tương tác được */
+  opacity: 20%;
+  /* visibility: hidden; */
+}
+
+span {
+  /* display: none; */
+  font-size: 100%;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  display: none;
+  opacity: 1%;
+  text-align: center;
+}
+
+td {
+  opacity: 0.5;
+  text-align: center;
+  background-color: brown;
+}
+
+body {
+  background-image: url(../img/Angle.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  opacity: 1;
+  text-align: center;
+}
